@@ -144,8 +144,12 @@ input[type=number]::-webkit-inner-spin-button {
     select > option, select{
         width: 250px;
     }
+<<<<<<< HEAD
     div.activityPage__container{
         font-size: 0.8em;
         grid-template-areas: "aside" "main"; !important
     }
 }
+=======
+}
+>>>>>>> parent of d0b9e02 (Fixing a mistake)
