@@ -47,10 +47,3 @@
     position: relative;
     margin:15px;
 }
-
-@media(max-width: 41em){
-    .activityPage__container{
-        font-size: 0.8em;
-        grid-template-areas: "aside" "main";
-    }
-}
