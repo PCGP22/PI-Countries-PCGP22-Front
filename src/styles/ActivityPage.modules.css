@@ -1,11 +1,11 @@
 .activityPage__container{
     padding:2%;
-    display:grid;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     gap:15px;
-    grid-template-areas: "aside main main";
 }
 .activityPage__aside{
-    grid-area: aside;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,8 +131,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .activityPage__main{
-    grid-area: main;
-    width: 100%;
+    flex-grow: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,8 +143,7 @@ input[type=number]::-webkit-inner-spin-button {
     select > option, select{
         width: 250px;
     }
-    div.activityPage__container{
+    .activityPage__container{
         font-size: 0.8em;
-        grid-template-areas: "aside" "main"; !important
     }
 }
