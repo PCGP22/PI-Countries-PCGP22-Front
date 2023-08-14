@@ -145,6 +145,7 @@ input[type=number]::-webkit-inner-spin-button {
         width: 250px;
     }
      .activityPage__container{
+        display:grid;
         font-size: 0.8em;
         grid-template-areas: "aside" "main";
     }
