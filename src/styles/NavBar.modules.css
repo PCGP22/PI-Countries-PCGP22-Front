@@ -1,0 +1,34 @@
+.navBar__Container{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index: 3;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link_active{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+
+.navBar__link--unactive{
+    color:var(--dark-grey);
+}
+
+.navBar__link--unactive:hover{
+    color: var(--white);
+}
+
+.navBar__link--unactive:active{
+    color:var(--purple);
+}
+
+
+@media(max-width: 33em) {
+    .navBar__Container>a{
+        font-size: 1.2em;
+    }
+}

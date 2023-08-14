@@ -1,0 +1,20 @@
+.filters__container{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-weight: 600;
+}
+
+.label{
+    padding-right: 10px;
+}
+
+select{
+    width: 200px;
+}
+
+select:hover{
+    background-color: var(--purple);
+    color: var(--white);
+}

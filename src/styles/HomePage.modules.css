@@ -1,0 +1,86 @@
+.homePage__container{
+    padding: 2%;
+}
+
+.homePage__board{
+    background: var(--dark-grey);
+    border: 4px var(--black) solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    padding: 2%;
+}
+
+.homePage__countries{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap:10px;
+}
+
+.homePage__card{
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px var(--black);
+}
+
+.homePage__card:hover{
+    background-color: var(--purple)
+}
+
+.homePage__cardImg{
+    width: 100%;
+    max-height: 140px;
+}
+
+.homePage__cardText{
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.homePage__errorMsg{
+    background-color:var(--black);
+    color: var(--white);
+    padding: 6px 16px;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.pagButton{
+    padding: 2px 8px;
+    border: 2px var(--dark-purple) solid;
+    margin: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pagButton:not(.pagination__current--button):hover{
+    background-color: var(--purple);
+    color:var(--white);
+}
+
+.pagination__current--button, .pagButton:active{
+    cursor: initial;
+    background-color: var(--dark-purple);
+    color:var(--white);
+}
+
+@media (max-width: 90em){
+    .homePage__countries{
+        grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
+    }
+}
+
+@media (max-width: 55em){
+    .homePage__countries{
+        grid-template-columns: repeat(auto-fill, minmax(130px,1fr));
+    }
+}
+
+@media (max-width: 32em){
+    .pagButton{
+        padding:1px 5px;
+    }
+}

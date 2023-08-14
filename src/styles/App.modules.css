@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;600;800&display=swap');
+
+:root{
+    --black: #222;
+    --dark-purple: #7c3c8f;
+    --purple: #a57db6;
+    --dark-grey: #e0e0e0;
+    --white: #f2f2f2;
+    --light-grey: #f0f0f0;
+
+    font-family: 'Asap', sans-serif;
+    font-size: 18px;
+    color: var(--black);
+    background-color: var(--light-grey);
+    
+    
+}
+a{
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+    text-align: center;
+}
+
+a.button{
+    color: var(--black);
+    background-color: var(--light-grey);
+    display: inline-block;
+    width: fit-content;
+}
+
+body{
+    padding:0;
+    margin: 0;
+}
+
+.title-text{
+    font-weight: 800;
+    font-size: 4em;
+}
+
+.big-text{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.normal-text{
+    font-weight: 400;
+}
+
+.white-text{
+    color: var(--white);
+}
+.button{
+    background-color: var(--light-grey);
+}
+
+.dark-purple{
+    background: var(--dark-purple);
+}
+
+.purple{
+    background: var(--purple);
+}
+
+.soft-grey{
+    background-color: var(--light-grey);
+}
+
+.dark-grey{
+    background-color: var(--dark-grey);
+}
+
+.no-space{
+    margin: 0;
+    padding: 0;
+}
+
