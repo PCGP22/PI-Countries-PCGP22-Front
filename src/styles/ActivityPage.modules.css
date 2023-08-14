@@ -144,8 +144,8 @@ input[type=number]::-webkit-inner-spin-button {
     select > option, select{
         width: 250px;
     }
-     div.activityPage__container{
+    .activityPage__container{
         font-size: 0.8em;
-        grid-template-areas: "aside" "main";
+        grid-template-areas: "aside" "main"; !important
     }
 }
